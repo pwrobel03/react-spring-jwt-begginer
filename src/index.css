@@ -50,3 +50,7 @@ body {
 .bold {
   @apply font-[700]
 }
+
+.section {
+  @apply flex flex-1 sm:p-10 p-6
+}
