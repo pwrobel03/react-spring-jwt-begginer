@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* @apply bg-gradient-to-r from-sky-900 to-sky-700 */
+}
+
+#root {
+  @apply max-w-screen-2xl p-0 m-auto;
+}
+
+/* FONTS */
+.regular-quotes {
+  @apply text-[8px] font-[200];
+  @apply xs:text-[10px] xs:font-[300];
+  @apply sm:text-[12px] sm:font-[400];
+  @apply md:text-[14px] md:font-[400];
+  @apply lg:text-[16px] lg:font-[400];
+  @apply xl:text-[18px] xl:font-[500];
+}
+
+.regular-menu {
+  @apply text-[12px] font-[200];
+  @apply xs:text-[14px] xs:font-[300];
+  @apply sm:text-[16px] sm:font-[400];
+  @apply md:text-[18px] md:font-[400];
+  @apply lg:text-[20px] lg:font-[400];
+  @apply xl:text-[24px] xl:font-[500];
+}
+
+.regular {
+  @apply text-[18px] font-[200];
+  @apply xs:text-[20px] xs:font-[300];
+  @apply sm:text-[24px] sm:font-[400];
+  @apply md:text-[28px] md:font-[400];
+  @apply lg:text-[32px] lg:font-[400];
+  @apply xl:text-[40px] xl:font-[500];
+}
+
+.headings {
+  @apply text-[32px] font-[800];
+  @apply xs:text-[40px] xs:font-[800];
+  @apply sm:text-[48px] sm:font-[800];
+  @apply md:text-[52px] md:font-[800];
+  @apply lg:text-[56px] lg:font-[800];
+  @apply xl:text-[64px] xl:font-[800];
+}
+
+.bold {
+  @apply font-[700]
+}
